@@ -1,5 +1,7 @@
 # RJS-ASM02
 
+link git: https://github.com/minhlong43/RJS-ASM02.git
+
 * Trang chủ: hiển thị toàn bộ nhân viên.
  + Header:
   - Nav: Nhân viên 
