@@ -1,58 +1,45 @@
 import React, { Component } from "react";
-// import { Media } from "reactstrap";
-import { Card, CardBody, CardTitle } from "reactstrap";
+import { Card, CardImg, CardTitle } from "reactstrap";
+import { STAFFS } from "../shared/staffs";
+import { NavLink } from "react-router-dom";
 
 class Menu extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      selectedDish: null,
+      staffs: STAFFS,
+      selectedStaff: null,
     };
   }
 
-  onDishSelect(dish) {
-    this.setState({ selectedDish: dish });
-  }
-
-  renderDish(dish) {
-    if (dish != null)
-      return (
-        <Card>
-          <CardBody>
-            <b>Họ và tên: {dish.name}</b>
-            <p>Ngày sinh: {dish.doB}</p>
-            <p>Ngày vào công ty: {dish.startDate}</p>
-            <p>Phòng ban: {dish.numberOfStaff}</p>
-            <p>Số ngày nghỉ còn lại: {dish.annualLeave}</p>
-            <p>Số ngày đã làm thêm: {dish.overTime}</p>
-          </CardBody>
-        </Card>
-      );
-    else return <div></div>;
-  }
-
   render() {
-    const menu = this.props.dishes.map((dish) => {
+    const menu = this.state.staffs.map((data) => {
       return (
-        <div className="col-12 col-md-5 m-1">
-          <ul key={dish.id} onClick={() => this.onDishSelect(dish)}>
-            <li className="card">
-              <CardTitle>{dish.name}</CardTitle>
-            </li>
-          </ul>
+        <div className="col-6 col-md-4 col-xl-2 mb-5" key={data.id}>
+          <Card onClick={() => this.props.onClick(data.id)}>
+            <NavLink className="nav-link" to={`/staff/${data.id}`}>
+              <CardImg
+                width="auto"
+                height="200px"
+                src={data.image}
+                alt={data.name}
+              />
+            </NavLink>
+            <CardTitle>{data.name}</CardTitle>
+          </Card>
         </div>
       );
     });
 
     return (
       <div className="container">
-        <div className="row">{menu}</div>
         <div className="row">
-          <div className="col-12 col-md-5 m-1">
-            {this.renderDish(this.state.selectedDish)}
+          <div className="col-12">
+            <h3>Nhân viên</h3>
+            <hr />
           </div>
         </div>
+        <div className="row">{menu}</div>
       </div>
     );
   }

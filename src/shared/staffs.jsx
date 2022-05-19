@@ -39,7 +39,7 @@ export const STAFFS = [
     department: DEPARTMENTS[0],
     annualLeave: 1,
     overTime: 1,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t1.jpg",
   },
   {
     id: 1,
@@ -50,7 +50,7 @@ export const STAFFS = [
     department: DEPARTMENTS[1],
     annualLeave: 2,
     overTime: 3,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/q1.jpg",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const STAFFS = [
     department: DEPARTMENTS[3],
     annualLeave: 4,
     overTime: 5,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t2.jpg",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ export const STAFFS = [
     department: DEPARTMENTS[2],
     annualLeave: 6,
     overTime: 7,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/q2.jpg",
   },
   {
     id: 4,
@@ -83,7 +83,7 @@ export const STAFFS = [
     department: DEPARTMENTS[2],
     annualLeave: 8,
     overTime: 1,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t3.jpg",
   },
   {
     id: 5,
@@ -94,7 +94,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/q3.jpg",
   },
   {
     id: 6,
@@ -116,7 +116,7 @@ export const STAFFS = [
     department: DEPARTMENTS[2],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t4.jpg",
   },
   {
     id: 8,
@@ -127,7 +127,7 @@ export const STAFFS = [
     department: DEPARTMENTS[3],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/q4.jpg",
   },
   {
     id: 9,
@@ -138,7 +138,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t2.jpg",
   },
   {
     id: 10,
@@ -149,7 +149,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/q4.jpg",
   },
   {
     id: 11,
@@ -160,7 +160,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t3.jpg",
   },
   {
     id: 12,
@@ -171,7 +171,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/kh8.jpg",
   },
   {
     id: 13,
@@ -182,7 +182,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/kh14.jpg",
   },
   {
     id: 14,
@@ -193,7 +193,7 @@ export const STAFFS = [
     department: DEPARTMENTS[4],
     annualLeave: 9,
     overTime: 10,
-    image: "/assets/images/alberto.png",
+    image: "/assets/images/t1.jpg",
   },
   {
     id: 15,
